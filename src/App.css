@@ -13,6 +13,21 @@
   }
 }
 
+.main-container {
+  display: flex; /* Usar flexbox para alinear Slidebar y contenido */
+}
+
+.slidebar {
+  width: 200px; /* Ajusta el ancho de la Slidebar según sea necesario */
+  /* Otros estilos para la Slidebar */
+}
+
+.content {
+  flex-grow: 1; /* Permitir que el contenido ocupe el espacio restante */
+  padding: 20px; /* Espaciado alrededor del contenido */
+  /* Otros estilos para el contenido */
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
